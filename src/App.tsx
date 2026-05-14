@@ -1,7 +1,7 @@
 // import FunctionalComponent from "./components/LessonTwo/FunctionalComponent.tsx";
 // import ClassComponent from "./components/LessonTwo/ClassComponent.tsx";
 // import ArrowFunctionalComponent from "./components/LessonTwo/ArrowFunctionalComponent.tsx";
-import ArrowFunctionalComponentWithProps from "./components/LessonThree/ArrowFunctionalComponentWithProps.tsx";
+// import ArrowFunctionalComponentWithProps from "./components/LessonThree/ArrowFunctionalComponentWithProps.tsx";
 import Layout from "./components/Layout.tsx";
 
 // type PropsA = {
@@ -62,11 +62,11 @@ function App() {
         {/*    description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium corporis delectus iure laudantium maxime nam quidem repellendus. Accusamus animi deserunt illo neque nisi perferendis sint vel. Asperiores doloribus magnam minima!"*/}
         {/*/>*/}
 
-        <Layout>
-            <ArrowFunctionalComponentWithProps
-                title = "SecondTitle"
-                description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium corporis delectus iure laudantium maxime nam quidem repellendus. Accusamus animi deserunt illo neque nisi perferendis sint vel. Asperiores doloribus magnam minima!"
-            />
+        <Layout addClasses="text-blue-600 bg-gray-100">
+            {/*<ArrowFunctionalComponentWithProps*/}
+            {/*    title = "SecondTitle"*/}
+            {/*    description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium corporis delectus iure laudantium maxime nam quidem repellendus. Accusamus animi deserunt illo neque nisi perferendis sint vel. Asperiores doloribus magnam minima!"*/}
+            {/*/>*/}
             <p className="text-red-700">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, minima?</p>
         </Layout>
 
