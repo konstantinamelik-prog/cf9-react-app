@@ -71,7 +71,7 @@ function App() {
 
         {/* LESSON FOUR */}
         <Layout addClasses="bg-gray-50">
-            {/*<Counter/>*/}
+            <Counter/>
             <ClassCounter/>
         </Layout>
 
