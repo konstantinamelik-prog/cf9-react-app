@@ -3,8 +3,9 @@
 // import ArrowFunctionalComponent from "./components/LessonTwo/ArrowFunctionalComponent.tsx";
 // import ArrowFunctionalComponentWithProps from "./components/LessonThree/ArrowFunctionalComponentWithProps.tsx";
 import Layout from "./components/Layout.tsx";
-import Counter from "./components/Lesson Four/Counter.tsx";
-import ClassCounter from "./components/Lesson Four/ClassCounter.tsx";
+import CounterAdvanced from "./components/Lesson Four/CounterAdvanced.tsx";
+// import Counter from "./components/Lesson Four/Counter.tsx";
+// import ClassCounter from "./components/Lesson Four/ClassCounter.tsx";
 
 // type PropsA = {
 //     title: string,
@@ -71,8 +72,9 @@ function App() {
 
         {/* LESSON FOUR */}
         <Layout addClasses="bg-gray-50">
-            <Counter/>
-            <ClassCounter/>
+            {/*<Counter/>*/}
+            {/*<ClassCounter/>*/}
+            <CounterAdvanced/>
         </Layout>
 
     </>
