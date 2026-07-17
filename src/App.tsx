@@ -26,6 +26,7 @@ import MultiFieldForm from "./components/LessonNine/MultiFieldForm.tsx";
 import MultiFieldFormWithValidation from "./components/LessonNine/MultiFieldFormWithValidation.tsx";
 import MultiFieldFormWithZod from "./components/LessonTen/MultiFieldFormWithZod.tsx";
 import MultiFieldFormWithHookForm from "./components/LessonTen/MultiFieldFormWithHookForm.tsx";
+import ProductListPage from "./pages/ProductListPage.tsx";
 // import Counter from "./components/LessonFour/Counter.tsx";
 // import ClassCounter from "./components/LessonFour/ClassCounter.tsx";
 // import {useState} from "react";
@@ -174,6 +175,12 @@ function App() {
                     <Route path="multifield-form-validation" element={<MultiFieldFormWithValidation/>}/>
                     <Route path="multifield-form-zod" element={<MultiFieldFormWithZod/>}/>
                     <Route path="multifield-form-hook-form" element={<MultiFieldFormWithHookForm/>}/>
+
+                    <Route path="products">
+                        <Route index element={<ProductListPage />} />
+                        {/*<Route path="new" element={<ProductPage />} />*/}
+                        {/*<Route path=":productId" element={<ProductPage />} />*/}
+                    </Route>
 
                 </Route>
                 {/* /files/* */}
