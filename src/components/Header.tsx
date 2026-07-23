@@ -1,6 +1,7 @@
-import { Link } from "react-router";
+import {Link} from "react-router";
+import {AuthButton} from "@/components/AuthButton.tsx";
 
-const Header = ()=> {
+const Header = () => {
     return (
         <>
             <header className="bg-cf-dark-red fixed w-full z-50">
@@ -9,10 +10,11 @@ const Header = ()=> {
                         <img src="https://codingfactory.aueb.gr/sites/all/themes/cf_theme/logo.png"
                              alt="CF Logo" className="my-4 h-16"/>
                     </Link>
-                    <nav className="flex gap-4 text-white font-medium">
+                    <div className="flex items-center gap-4 text-white font-medium">
                         <Link to="/">Home</Link>
                         <Link to="/products">Products</Link>
-                    </nav>
+                        <AuthButton/>
+                    </div>
                 </div>
             </header>
         </>
